@@ -1,5 +1,9 @@
 appdirs==1.4.3
+arrow==0.11.0
 attrs==19.2.0
 black==19.3b0
 Click==7.0
+ics==0.5
+python-dateutil==2.8.0
+six==1.12.0
 toml==0.10.0
