@@ -21,6 +21,7 @@ for week in range(weeks_to_schedule):
     turn.begin = monday.strftime("%Y-%m-%d 00:00:00")
     turn.end = friday.strftime("%Y-%m-%d 23:59:59")
     turn.make_all_day()
+    turn.transparent = True
     calendar.events.add(turn)
 
 with open("rt-rota.ics", "w") as f:
