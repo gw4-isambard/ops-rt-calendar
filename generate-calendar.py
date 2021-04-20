@@ -2,8 +2,8 @@ from datetime import date, timedelta
 from ics import Calendar, Event
 
 sites = ["Bath", "Bristol", "Cardiff", "Exeter"]
-offset = 1  # start with Bristol
-start_date = date(2019, 10, 7)
+offset = 2  # start with Bristol
+start_date = date(2021, 4, 19)
 weeks_to_schedule = 12
 
 # format = "%Y-%m-%d 00:00:00"
