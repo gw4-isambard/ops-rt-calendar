@@ -3,7 +3,7 @@ from ics import Calendar, Event
 
 sites = ["Bath", "Bristol", "Cardiff", "Exeter"]
 offset = 1  # start with Bristol
-start_date = date(2021, 7, 5)
+start_date = date(2021, 9, 27)
 weeks_to_schedule = 12
 
 # format = "%Y-%m-%d 00:00:00"
