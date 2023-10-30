@@ -2,7 +2,7 @@ from datetime import date, timedelta
 from ics import Calendar, Event
 
 #sites = ["Bath", "Bristol", "Cardiff", "Exeter"]
-sites = ["Bath", "Cardiff", "Exeter"]
+sites = ["Bath", "Bristol", "Cardiff", "Exeter"]
 offset = 0  # start with Bath
 start_date = date(2023, 10, 30)
 weeks_to_schedule = 12
